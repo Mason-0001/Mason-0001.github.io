@@ -1,0 +1,103 @@
+/* Giving the body the specified background color */
+body {
+    background: #f1f1f1;
+  }
+  
+  /* Giving our navbar some padding and a background color */
+  .navbar {
+    padding: 10px;
+    background: #3eb0b4;
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+/* Below are the main navbar settings */
+  
+.navbar-brand {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.ml-auto {
+    order: -1;
+}
+    /* Media query for screens smaller than 768px and the settings for the navbar*/
+@media (max-width: 767px) {
+.navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navbar-brand {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color: #3eb0b4;
+    height: 100%;
+}
+.navbar {
+    padding: 0px;
+    background: #ffffff;
+}
+.navbar-toggler {
+    border: 2px solid black;
+    margin-right: 5px;
+    padding: 3px 8px;
+}
+.navbar-toggler-icon {
+display: inline-block;
+width: 28px;
+height: 28px;
+background: transparent url('https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png') no-repeat center center;
+background-size: contain;
+cursor: pointer;
+}
+.dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+}
+}
+  
+/* settings for comparison page when it is small. attempting to make horizontal lines after each row. Failed, may come back to it later.
+
+  @media (max-width: 767px) {
+    #Comparison .row:after { 
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin-top: 20px;
+    }
+}
+*/

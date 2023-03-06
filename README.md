@@ -1,1 +1,3 @@
-# Mason-0001.github.io
+# Web-Design-Challenge
+
+For this challenge, I made a dashboard website to post some of the data analysis I have done in a previous challenge. In building this website, I made a total of 7 pages: A home page, 1 page for every plot (4 pages total), a comparison page, and a data page. These pages also had links to eachother as well as a navigation menu on the top of every page that also contains a dropdown menu for the plots. I also used bootstrap to make all the pages function with smaller screen sizes.
