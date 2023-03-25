@@ -1,0 +1,3 @@
+# Belly-Button-Challenge
+
+In this challenge, I built an interactive dashboard to explore a dataset involving the biodiversity of microbes in belly buttons. The interactive dashboard includes the ability to select different test subject ID then the page will populate with the following: demographic info, a bar chart, a gauge, and a bubble chart. In order to be able to make these interactive charts, I used javascript, so the page would update all charts and info appropriatly.
